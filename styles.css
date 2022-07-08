@@ -1,0 +1,124 @@
+html{
+scroll-behavior: smooth;
+}
+body {
+    background: url(https://us.123rf.com/450wm/estherpoon/estherpoon1606/estherpoon160600104/58030489-ice-polygonal-mosaic-background.jpg?ver=6) ;
+}
+li {
+    display: inline;
+}
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 253, 253);
+    
+
+  }
+  
+li {
+    float: left;
+}
+  
+li a {    
+    display: block;
+    color: rgb(117, 117, 117);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to on hover */
+li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.main {
+    border: 3px outset white;
+    background-color: whitesmoke;
+    text-align: center;
+  }
+  section {
+    border: 3px outset white;
+    background-color: whitesmoke;
+    text-align: center;
+  }
+img {
+    width: 300px;
+    height: 240px;
+}
+.image{
+    width: 300px;
+    height: 240px;
+    padding-left: 50%;
+
+}
+table {
+    width: 100%;
+  }
+
+  th {
+    height: 70px;
+    background-color: #000000;
+    color: white;
+  }
+h1 {
+  color: rgb(170, 15, 15);
+}
+div {
+  background-color: lightgrey;
+  width: 600px;
+  border: 15px solid rgb(2, 6, 72);
+  padding: 60px;
+  margin: 25px;
+  margin-left: 25%;
+}
+.selector{
+        margin: auto;
+        width: 30%;
+        border: 3px solid #030303;
+        padding: 10px;
+        margin-right: 100%;
+        
+}
+span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+  }
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
